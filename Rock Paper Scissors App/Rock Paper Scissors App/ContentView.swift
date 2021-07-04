@@ -33,10 +33,6 @@ struct ContentView: View {
                 AI_Str = Image("rockIcon")
                     .resizable()
                 resultStr = "Tie"
-            } else if randomInt == 10 {
-                AI_Str = Image("middleIcon")
-                    .resizable()
-                resultStr = "Fuck you"
             } else {
                 AI_Str = Image("errorIcon")
                     .resizable()
@@ -55,10 +51,6 @@ struct ContentView: View {
                 AI_Str = Image("paperIcon")
                     .resizable()
                 resultStr = "Tie"
-            } else if randomInt == 10 {
-                AI_Str = Image("middleIcon")
-                    .resizable()
-                resultStr = "Fuck you"
             } else {
                 AI_Str = Image("errorIcon")
                     .resizable()
@@ -77,10 +69,6 @@ struct ContentView: View {
                 AI_Str = Image("scissorIcon")
                     .resizable()
                 resultStr = "Tie"
-            } else if randomInt == 10 {
-                AI_Str = Image("middleIcon")
-                    .resizable()
-                resultStr = "Fuck you"
             } else {
                 AI_Str = Image("errorIcon")
                     .resizable()
